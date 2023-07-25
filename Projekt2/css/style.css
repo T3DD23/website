@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    background-color: hsl(235, 18%, 26%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.card {
+    width: 950px;
+    background-color: hsl(0, 0%, 100%);
+    color: hsl(234, 29%, 20%);
+    display: flex;
+    border-radius: 20px;
+}
+
+.card-main {
+    margin-left: 50px;
+    margin-top: 80px;
+}
+
+.card-right {
+    margin: 20px 10px 20px 65px;
+}
+
+.card-info {
+    padding: 20px;
+}
+
+.card-list-info p {
+    padding: 5px;
+    margin-top: 15px 0 15px 0;
+}
+
+.card-list-info img {
+    vertical-align: middle;
+    margin: 20px 10px 20px 5px;
+}
+
+.card-main-form {
+    margin-left: 20px;
+    width: 350px;
+}
+
+.param {
+    margin-top: 20px;
+}
+
+.card-main-form h5 {
+    margin-bottom: 10px;
+}
+
+.card-main-form input {
+    width: 100%;
+    padding: 18px 20px 18px 15px;
+    border-radius: 7px;
+}
+
+.card-main-form button {
+    background-color: hsl(234, 29%, 20%);
+    margin-top: 20px;
+    width: 100%;
+    padding: 18px 20px 18px 15px;
+    border-radius: 7px;
+    color: white;
+}
+
+.card-info h1 {
+    width: 100%;
+    letter-spacing: 2px;
+    font-size: 50px;
+    font-weight: 50px;
+    white-space: 2px;
+}

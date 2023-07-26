@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: hsl(0, 0%, 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    font-family: 'Hanken Grotesk', sans-serif;
+    height: 95vh;
+
+}
+
+.container {
+    display: flex;
+    width: 950px;
+    height: 550px;
+
+}
+
+.container-main-info {
+    width: 40%;
+    height: 100%;
+    background-image: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+    text-align: center;
+    color: hsl(241, 100%, 89%);
+    border-radius: 35px;
+    margin: -10px;
+    z-index: 1;
+}
+
+.container-info-circle {
+    border: 1px solid black;
+    border-radius: 50%;
+    padding: 35px;
+    margin: 10px 55px 10px 55px;
+    font-size: 25px;
+    background-image: linear-gradient(hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+    color: white;
+    border-style: none
+}
+
+.container-main-info h4 {
+    padding-top: 30px;
+    margin: 30px 0 30px 0;
+}
+
+.container-main-info h1 {
+    margin: 25px 10px 25px 10px;
+    color: white;
+}
+
+.container-info-circle p {
+    color: hsl(241, 100%, 89%);
+}
+
+.container-info-circle-text {
+    text-align: center;
+    margin: 5px 50px 5px 50px;
+}
+
+.container-main-right img {
+    vertical-align: middle;
+}
+
+.right-info-red {
+    margin-top: 20px;
+    color: hsl(0, 100%, 67%);
+    padding: 20px;
+    border: 1px solid black;
+    margin-left: 20px;
+    border-radius: 10px;
+    background-color: hsl(0, 81%, 83%);
+    border-style: none;
+
+}
+
+.right-info-yellow {
+    margin-left: 20px;
+    color: hsl(39, 100%, 56%);
+    padding: 20px;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: hsl(39, 84%, 83%);
+    border-style: none;
+}
+
+.right-info-green {
+    color: hsl(166, 100%, 37%);
+    padding: 20px;
+    margin-left: 20px;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: hsl(166, 85%, 82%);
+    border-style: none;
+    margin-top: 20px;
+}
+
+.right-info-blue {
+    margin-top: 20px;
+    margin-left: 20px;
+    color: hsl(234, 85%, 45%);
+    padding: 20px;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: hsl(221, 100%, 96%);
+    border-style: none;
+}
+
+.container-main-right {
+    width: 50%;
+    height: 100%;
+    background-color: white;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 1.125em 0 1.25rem rgb(196, 196, 247);
+    margin: -10px;
+}
+
+.container-main-right button {
+    width: 95%;
+    padding: 20px;
+    margin-top: 30px;
+    margin-left: 20px;
+    border-radius: 20px;
+    background-color: hsl(224, 30%, 27%);
+    color: white;
+    font-size: 16px;
+    font-weight: 90%;
+}

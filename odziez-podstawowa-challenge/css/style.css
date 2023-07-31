@@ -1,0 +1,66 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 16px;
+    font-family: 'Josefin Sans', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    width: 950px;
+    display: flex;
+}
+
+.container-left {
+    width: 85%;
+    height: 780px;
+    background-image: url(file:///C:/Users/User-b/Desktop/Foder-na-wszystko/chellenge/zadanie-8/images/bg-pattern-desktop.svg);
+}
+.container-left img{
+    margin: 50px 10px 90px 80px;
+}
+.container-left-param{
+    font-weight: 300;
+   letter-spacing: 15px;
+    color: hsl(0, 60%, 77%);
+}
+h1{
+    font-weight: 400;
+    font-size: 70px;
+    margin: 10px 50px 10px 80px;
+    letter-spacing: 15px;
+}
+
+.container-left-information p{
+    margin: 50px 80px 10px 80px;
+    text-align: justify;
+    color: hsl(0, 40%, 71%);
+    line-height: 1.8em;
+}
+input{
+    border-radius: 30px;
+    padding: 15px 20px  15px 20px;
+    margin: 20px 30px 20px 80px;
+    width: 50%;
+    border: 1px solid hsl(0, 40%, 71%);
+    
+}
+button{
+    width: 80px;
+    margin-left: -80px;
+    z-index: 3;
+    padding: 13px 20px 15px;
+    border-radius: 30px;
+    color: white;
+    font-weight: 700;
+    font-size: 15px;
+    background-image: linear-gradient(to  right , hsl(0, 80%, 86%),hsl(0, 74%, 74%));
+    border: none;
+}

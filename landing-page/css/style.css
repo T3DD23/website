@@ -20,12 +20,10 @@ body {
     background-image: url("../images/desktop/image-hero.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-
-
 }
 
 .container-header img {
-    margin: 5em 10px 50px 10.5em;
+    margin: 5em 10px 50px 15em;
 }
 
 .header-nav {
@@ -34,7 +32,6 @@ body {
 
 .container-header-logo {
     width: 30%;
-
 }
 
 .container-nav-bar {
@@ -62,15 +59,15 @@ ul li {
     color: white;
     text-transform: uppercase;
     font-size: 50pt;
-    width: 40%;
-    margin: 1em 15px 30px 2.5em;
+    width: 35%;
+    margin: 1em 15px 30px 3.5em;
     border: 1px solid white;
-    padding: 30px 40px 20px 40px;
+    padding: 30px 10px 20px 40px;
 
 }
 
 .container-main {
-    margin: 10em 0px 20px 10em;
+    margin: 10em 0px 20px 15em;
 }
 
 .container-main {
@@ -107,5 +104,105 @@ ul li {
 .creations {
     width: 100%;
     display: flex;
-    margin: 10em 10px 20px 10em;
+    margin: 10em 10px 20px 15em;
+}
+.container-button{
+    width: 50%;
+    display: flex;
+    justify-content: right;
+}
+.container-main-creation h2{
+    font-weight: 300;
+    font-family: 'Josefin Sans', sans-serif;
+    text-transform: uppercase;
+    font-size: 25pt;
+}
+button{
+    border: 1px solid black;
+    background-color: white;
+    font-family: 'Alata', sans-serif;
+    text-transform: uppercase;
+    width: 10%;
+    margin-right: 3.75em
+}
+.container-table{
+    width: 100%;
+    
+}
+table {
+    margin: 2em 10px  8em 13.5em
+    
+}
+table tr img{
+    padding: 1.3em;
+}
+.table-row td img{
+    margin-top: -1.75em;
+}
+tr,td{
+    position: relative;
+}
+.row-text-earth,.row-text-arcade,.row-text-soccer,.row-text-grid,.row-text-above,.row-text-pocket,.row-text-curiosity,.row-text-fisheye {
+    width: 10%;
+    position: absolute;
+    top: 75%;
+    left: 50px;
+    color:white;
+    font-weight: 300;
+    font-family: 'Josefin Sans', sans-serif;
+    text-transform: uppercase;
+    font-size: 24pt; 
+}
+.row-text-soccer{
+    width: 60%;
+    margin-right: 20px;
+    
+}
+.table-row ,td{
+    position: relative;
+}
+.row-text-above,.row-text-fisheye{
+    width: 60%;   
+}
+.container-footer{
+    background-color: black;
+    color: white;
+    display: flex;
+    min-height: 200px;
+}
+.container-footer-left{
+    width: 50%;
+    margin: 2em  20px 20px 10em;
+}
+.container-footer-left img {
+    margin: 2.5em 10px 10px 4.2em;
+}
+.container-footer-left ul{
+    margin: 10px 10px 10px 4.2em;
+    font-weight: 300;
+    font-family: 'Alata', sans-serif;
+}
+.container-footer-right{
+    width: 50%;
+    /* align-items: center; */
+    
+}
+.footer-socialmedia{
+    display: flex; 
+    justify-content: right; 
+    margin: 4.5em 22em 20px 10px;
+}
+.img-facebook,.img-twitter,.img-pinterest,.img-instagram, img{
+   margin-right: 15px;
+   display: inline;
+}
+.information{
+    display: block;
+    width: 100%;
+}
+.information p{
+    margin: 1.5em 0px 10px 10rem;
+    font-weight: 300;
+    font-family: 'Alata', sans-serif;
+    color: hsl(0, 0%, 41%);
 }

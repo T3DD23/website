@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url("../images/pattern-background-desktop.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    font-family: 'Red Hat Display', sans-serif;
+    background-color: hsl(225, 100%, 94%)
+}
+
+.container {
+    width: 450px;
+    height: 680px;
+    background-color: white;
+    border-radius: 20px;
+}
+
+.container-component {
+    width: 100%;
+}
+
+.container-component img {
+    border-top-left-radius: 23px;
+    border-top-right-radius: 23px;
+}
+
+h2,
+.summary-info {
+    text-align: center;
+    margin: 10px 20px 2px 20px;
+}
+
+h2 {
+    margin-top: 1em;
+    color: hsl(223, 47%, 23%);
+}
+
+.summary-info {
+    width: 50%;
+}
+
+.summary-info p {
+    margin-left: 70px;
+    margin-right: 70px;
+    color: hsl(224, 23%, 55%);
+}
+
+.container-annual {
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    margin-top: 1em;
+    border: 1px solid black;
+    padding: 20px;
+    border-radius: 15px;
+    background-color: hsl(225, 100%, 98%);
+    border: none;
+}
+
+.container-annual img {
+    vertical-align: middle;
+}
+
+.container-annual p {
+    margin-right: 2em;
+}
+
+.container-annual a {
+    color: hsl(245, 75%, 52%);
+}
+
+.container-annual a:hover {
+    opacity: 0.7;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.info {
+    margin-top: 2px;
+    line-height: 1.5em;
+    color: hsl(224, 23%, 55%);
+}
+
+.info b {
+    color: hsl(223, 47%, 23%)
+}
+
+span {
+    margin-right: -1.10em;
+}
+
+.container-annual a {
+    /* text-align: center; */
+    margin-top: 15px;
+}
+
+button {
+    width: 80%;
+    margin-left: 3.5em;
+    margin-top: 30px;
+    padding: 15px;
+    font-weight: 700;
+    border-radius: 15px;
+    background-color: hsl(245, 75%, 52%);
+    color: white;
+    font-family: 'Red Hat Display', sans-serif;
+    box-shadow: 0px 15px 16px 0px hsl(225, 100%, 94%);
+
+}
+
+button:hover {
+    opacity: 0.7;
+    cursor: pointer;
+}
+
+.param {
+    text-align: center;
+    margin-top: 2em;
+    font-weight: 700;
+    color: hsl(224, 23%, 55%);
+}

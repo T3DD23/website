@@ -1,0 +1,106 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: hsl(229, 57%, 11%);
+    background-image: url("../images/bg-desktop.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-position: left 50vh;
+    font-family: 'Raleway', sans-serif;
+    height: 100vh;
+}
+.container{
+    display: flex;
+    width: 950px;
+    height: 450px;
+    position: relative;
+
+}
+.container-fylo{
+    position: absolute;
+    background-color: hsl(228, 56%, 26%);
+    width: 450px;
+    height: 250px;
+    border-top-right-radius: 10em;
+    border-top-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    margin-right: 2em;
+    top: 25%;
+    
+}
+.container-icon{
+    width: 80%;
+    display: flex;
+    justify-content: space-evenly;
+    /* margin-top: 100px; */
+    margin-top: 0.1em; 
+    /* margin-right: 20px; */
+}
+.fylo-logo{
+    margin:3em ;
+}
+.container-file,.container-folder,.container-upload{
+    display: inline;
+    width: 50px;
+    height: 50px;
+    background-color: hsl(229, 57%, 11%);
+    border-radius:10px ;
+    margin-right: 20em;
+}
+.container-file ,.container-folder,.container-upload, img{
+   margin: 0;
+   
+}
+.container-file img{
+   margin-left: 15px;
+   margin-top: 10px;
+}
+
+.container-folder img{
+    margin-left: 13px;
+   margin-top: 15px;
+}
+.container-upload img{
+    margin-left: 13px;
+    margin-top: 15px;
+  
+}
+.container-progres-bar{
+    position: relative;
+    left: 50%;
+    width: 70%;
+    height: 200px;
+    top: 36%;
+    background-color: hsl(228, 56%, 26%);
+   border-radius: 10px;
+}
+.container-progres-bar p{
+    margin: 40px 0px 5px 40px;
+}
+.storage{
+    margin-bottom: 20em;
+    width: 80%;
+    margin-left: 40px;
+    padding: 15px;
+}
+.progress-info{
+    color: white;
+    font-weight: 200;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+.message{
+    display: flex;
+    align-items: center;
+    gap: 0.8rem;
+    color: black;
+}

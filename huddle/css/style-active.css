@@ -1,0 +1,17 @@
+button:hover {
+    opacity: 0.7;
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.footer-menu3 img:hover {
+    background-color: hsl(322, 100%, 66%);
+}

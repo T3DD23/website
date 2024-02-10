@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularz</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&display=swap" rel="stylesheet">
+    <script src="./form.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="container-form">
+            <form action="form.php" method="post">
+                <fieldset class="frame-form"> 
+                    <legend>Zaloguj sie</legend>
+                    <hr>
+                    <div class="mail-container">
+                        <label class="info">Adres-email:</label>
+                        <input type="text" name="mail" id="mail" placeholder="example@gmail.com">
+                        <span id="emailError" class="error"></span>
+                    </div>
+                    <br>
+                    <div class="password-container">
+                        <label class="info">Hasło:</label>
+                        <input type="password" name="passwd" id="haslo">
+                        <span id="paswdError" class="error"></span>
+                    </div>
+                    <div class="container-button">
+                        <div class="clear">
+                            <input type="submit" class="button-clear" value="Wyczysc" name="clear">
+                        </div>
+                        <div class="login">
+                            <input type="submit" name="wyslij" class="button-login" value="Zaloguj się">
+                        </div>
+                    </div>
+                </fieldset>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

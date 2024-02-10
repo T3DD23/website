@@ -1,0 +1,79 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: hsl(0, 2%, 9%);
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+.container{
+   color: white;
+   height: 450px;
+   
+}
+.frame-form{
+    height: 450px;
+    background-color: hsl(0, 1%, 15%);
+}
+hr{
+    margin-top: 50px;
+}
+.mail-container{
+    width: 90%;
+    margin: 40px 10px 10px 10px;
+}
+.password-container{
+    width: 90%;
+    margin: 30px 10px 10px 10px;
+}
+legend{
+    margin-left: 10px;
+}
+input{
+    margin-top: 10px;
+    padding: 8px;
+    width: 100%;
+    border-radius: 10px;
+    border: none;
+}
+.info{
+    margin-left: 2px;
+}
+.container-button{
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    justify-content: space-around;
+    margin-left: 2px;
+}
+.clear,.login{
+    width: 40%;
+    margin: 6px;
+}
+.button-clear,.button-login{
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    color: white;
+    border: none;
+
+}
+.button-clear{
+    background-color: hsl(0, 87%, 47%);
+}
+.button-login{
+    background-color: rgb(6, 115, 6);
+    margin-left: 12px;
+}
+.button-login:
+.button-login:hover{
+    opacity: 0.7;
+    background-color: rgb(43, 110, 43);
+}
